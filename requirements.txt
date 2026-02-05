@@ -1,0 +1,7 @@
+# The Layered Mind — Companion Scripts
+# Python 3.9+
+
+# Part 1: Graph construction and traversal
+networkx>=3.0
+
+# Future parts will add dependencies here as needed
