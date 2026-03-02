@@ -8,7 +8,7 @@ I'm an AI consultant and practitioner who's spent quite some time and effort bui
 
 So I'm going deep on **ontologies**, **knowledge graphs**, and **ontological stratification** — the idea that knowledge should be organized in layers, from universal concepts down to domain-specific details — and writing about it as I learn.
 
-This repo contains the companion code for *The Layered Mind*, a 10-part series published on [Substack](#https://substack.com/@polymathic9) and [Medium](#https://medium.com/@polymathik). Think of it as field notes from a practitioner filling in the gaps. If you're building AI agents and sensing that retrieval alone isn't enough, you're in the right place.
+This repo contains the companion code for *The Layered Mind*, a 10-part series published on [Medium](https://medium.com/@polymathik). Think of it as field notes from a practitioner filling in the gaps. If you're building AI agents and sensing that retrieval alone isn't enough, you're in the right place.
 
 ---
 
@@ -16,8 +16,8 @@ This repo contains the companion code for *The Layered Mind*, a 10-part series p
 
 | Part | Title | Post | Script |
 |------|-------|------|--------|
-| 1 | Why Ontologies? — The Missing Layer in Agent Architecture | [Substack](#) · [Medium](#) | [`01_flat_vs_structured.py`](./scripts/01_flat_vs_structured.py) |
-| 2 | Triples, Graphs, and Your First Knowledge Graph | *Coming soon* | — |
+| 1 | Why Ontologies? — The Missing Layer in Agent Architecture | [Medium](https://polymathik.medium.com/why-ontologies-are-the-missing-layer-in-ai-agent-architecture-3f6ba117b7f2) | [`01_flat_vs_structured.py`](./scripts/01_flat_vs_structured.py) |
+| 2 | Triples, Graphs, and Your First Knowledge Graph | [Medium](https://polymathik.medium.com/triples-graphs-and-your-first-knowledge-graph-ac2d9bfa745a) | [`02_kg_builder.py`](./scripts/02_kg_builder.py) · [`02_llm_triple_extraction.py`](./scripts/02_llm_triple_extraction.py) |
 | 3 | From Flat to Layered — Ontological Stratification Deep Dive | *Coming soon* | — |
 | 4 | The Upper Ontology — Universal Concepts Agents Can Share | *Coming soon* | — |
 | 5 | Domain Ontologies — Teaching Agents About Specific Worlds | *Coming soon* | — |
@@ -37,6 +37,8 @@ the-layered-mind/
 ├── requirements.txt
 └── scripts/
     ├── 01_flat_vs_structured.py      # Part 1: Keyword search vs. KG traversal
+    ├── 02_kg_builder.py              # Part 2: Build a KG from triples, traverse it
+    ├── 02_llm_triple_extraction.py   # Part 2: LLM-assisted triple extraction
     └── ...                           # More scripts added with each part
 ```
 
